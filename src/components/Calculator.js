@@ -22,7 +22,7 @@ const Calculator = props =>
 			else if (formula.length === lastNumIndex)
 				newFormula = formula + '0.';
 			else
-				newFormula = formula;
+				newFormula = formula + target.value;
 		}
 		else if (isNewResult)
 		{

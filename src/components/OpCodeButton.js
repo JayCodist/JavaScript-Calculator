@@ -20,7 +20,7 @@ const OpCodeButton = props =>
 			value={props.func} 
 			onClick={props.onClick}
 		>
-		{props.func}
+		{/(\*|\/)/.test(props.func) ? (props.func === '*' ? 'x' : '÷') : props.func}
 		</button>);
 }
 
