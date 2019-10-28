@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body
+{
+	font-family: Montserrat, segoe UI, sans-serif;
+	background-color: rgb(250, 220, 170);
+}
+.center-text
+{
+	text-align: center;
+}

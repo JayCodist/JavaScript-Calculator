@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff");
+}
+
+button
+{
+	outline: none;
+	border: 1px solid black;
+	font-family: "Share Tech Mono", segoe UI, sans-serif;
+	font-size: 2.4em;
+	padding: 0.7rem 0.3rem;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(80, 80, 80);
+}
+button:hover
+{
+	background-color: rgb(140, 140, 140);
+}
+.opcode-button
+{
+	background-color: rgb(120, 120, 120);
+}
+.opcode-button:hover
+{
+	background-color: rgb(180, 180, 180);
+}
+.btn-row
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#calculator-body
+{
+	margin: 2rem auto;
+	width: 30vw;
+	padding: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#display
+{
+	font-family: Digital, segoe UI, sans-serif;
+	font-size: 3.5rem;
+	padding: 0.5rem;
+	grid-area: display;
+	background-color: black;
+	color: white;
+	text-align: right;
+}
+#display #expression
+{
+	overflow-x: auto;
+	color: rgb(255, 170, 0);
+	font-size: 1.7rem;
+}
+#display #result
+{
+	overflow-x: auto;
+}
+#calculator-buttons
+{
+	padding-top: 0.5rem;
+}
+#first-row
+{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+}
+#clear
+{
+	background-color: darkred;
+}
+#clear:hover
+{
+	background-color: rgb(200, 50, 50);
+}
+#last-two-rows
+{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+#penult-row-left
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#last-row-left
+{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
