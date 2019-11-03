@@ -6,7 +6,7 @@ const idTable =
 	"AC": "clear",
 	"/": "divide",
 	"-": "subtract",
-	"+": "plus",
+	"+": "add",
 	"*": "multiply",
 	".": "decimal",
 	"=": "equals"

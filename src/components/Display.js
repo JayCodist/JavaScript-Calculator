@@ -18,13 +18,15 @@ const Display = props =>
 	}
 	output = isNegative ? (0 - output) : output;
 	return (
-		<section id="display">
-		<div id="expression">
-			{props.formula.replace(/\*/, 'x').replace(/\//, '÷') || 0}
-		</div>
-		<div id="result">
-			<span>{output || 0}</span>{digits && <sup>{digits}</sup>}
-		</div>
+		<section id="output">
+			<div id="expression">
+				{props.formula.replace(/\*/, 'x').replace(/\//, '÷') || ""}
+			</div>
+			<div id="display">
+				<span>
+					{output || props.formula.replace(/\*/, 'x').replace(/\//, '÷') || 0}
+				</span>{digits && <sup>{digits}</sup>}
+			</div>
 		</section>);
 }
 

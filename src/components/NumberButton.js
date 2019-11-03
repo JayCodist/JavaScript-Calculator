@@ -5,7 +5,7 @@ const idTable = ["zero", "one", "two", "three", "four", "five", "six", "seven", 
 const NumberButton = props =>
 {
 	return (
-		<button id={idTable[props.value]} onClick={props.onClick} value={props.value}>
+		<button id={idTable[props.value] || "decimal"} onClick={props.onClick} value={props.value}>
 			{props.value}
 		</button>);
 }
