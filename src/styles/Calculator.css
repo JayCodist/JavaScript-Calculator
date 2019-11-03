@@ -54,10 +54,11 @@ button:hover
 	color: rgb(255, 170, 0);
 	font-size: 1.7rem;
 	height: 2rem;
+	overflow: hidden;
 }
 #output #display
 {
-	overflow-x: auto;
+	overflow: hidden;
 	height: 5rem;
 }
 #calculator-buttons
