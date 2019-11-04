@@ -1,6 +1,6 @@
 ﻿# JavaScript Calculator
 
-## A React App (using Redux)
+## A React App (using Hooks)
 
 ## To run, clone repo using `git clone`, navigate into project directory and run `npm start`
 
